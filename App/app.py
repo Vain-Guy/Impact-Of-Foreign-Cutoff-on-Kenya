@@ -5,7 +5,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 import pandas as pd
 import joblib
-import numpy as np # <-- Make sure to import numpy
+import numpy as np 
 
 # === Initialize app ===
 app = FastAPI(
@@ -30,7 +30,7 @@ class FundingInput(BaseModel):
     is_refund: int
     managing_agency_name: str
     funding_agency_name: str
-    sector: str  # <-- Use 'sector', not 'us_sector_name'
+    sector: str  
     
     # These are your engineered features. The user of the API
     # would need to provide these. We can give them default values.
