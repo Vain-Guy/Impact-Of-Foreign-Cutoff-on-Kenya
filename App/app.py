@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import joblib
 import altair as alt
+import os
 
 # === PAGE CONFIGURATION ===
 st.set_page_config(
@@ -14,7 +15,11 @@ st.set_page_config(
 # === LOAD HISTORICAL DATA ===
 @st.cache_data
 def load_data():
-    return pd.read_csv("modeling data.csv")  # training dataset
+    path = "modeling data.csv"
+    if not os.path.exists(path):
+        st.error(f"❌ File not found: {path}. Make sure it’s uploaded or in the same directory.")
+        st.stop()
+    return pd.read_csv(path)
 
 df_history = load_data()
 
