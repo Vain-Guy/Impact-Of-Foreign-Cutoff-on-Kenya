@@ -1,8 +1,0 @@
-# Ignore Python cache and virtual environments
-__pycache__/
-*.pyc
-.env
-
-# Ignore generated machine learning files
-*.pkl
-catboost_info/ 
