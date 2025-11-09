@@ -16,7 +16,7 @@ st.set_page_config(
 # === LOAD HISTORICAL DATA ===
 @st.cache_data
 def load_data():
-    return pd.read_csv("../Clean Data/modeling data.csv")  # Your training dataset
+    return pd.read_csv("../App/modeling data.csv")  # Your training dataset
 
 df_history = load_data()
 
