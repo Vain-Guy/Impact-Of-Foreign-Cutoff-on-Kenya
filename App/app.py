@@ -1,5 +1,3 @@
-# app.py — 💰 XGBoost Foreign Aid Predictor (Enhanced & Polished UI)
-
 import streamlit as st
 import pandas as pd
 import numpy as np
