@@ -1,5 +1,7 @@
 # Impact of Foreign Aid Cutoff on Kenya’s Socio-Economic Sectors
 
+![Foreign Aid](https://unsplash.com/photos/red-and-white-x-logo-L8iPDE99z9c)
+
 ## Overview
 
 Between **2010–2025**, the United States—primarily through **USAID**—has been a cornerstone of Kenya’s socio-economic development. However, the **2025 U.S. foreign aid freeze** caused major disruptions across health, education, and agriculture sectors, exposing the country’s vulnerability to donor dependency.
